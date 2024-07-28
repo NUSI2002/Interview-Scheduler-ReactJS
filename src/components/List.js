@@ -10,7 +10,7 @@ class List extends Component {
   render() {
     const jsx = (
       <div>
-        <h1> Interviews Scheduled</h1>
+        <h1>Interviews Scheduled</h1>
         {this.props.interviews.map(interview => (
           <div key={interview.id}>
             <h3>{interview.title}</h3>
@@ -18,14 +18,20 @@ class List extends Component {
               <li>Date : {interview.date}</li>
               <li>Start Time : {interview.start}</li>
               <li>End Time : {interview.end}</li>
-              <a href={"/show/" + interview.id}>Show</a>{" "}
-              <a href={"/edit/" + interview.id}>Edit</a>{" "}
-              <a
-                href=""
-                onClick={this.deleteInterview.bind(this, interview.id)}
-              >
-                Delete
-              </a>
+              <li>
+                <a href={"/show/" + interview.id}>Show</a>
+              </li>
+              <li>
+                <a href={"/edit/" + interview.id}>Edit</a>
+              </li>
+              <li>
+                <button
+                  onClick={this.deleteInterview.bind(this, interview.id)}
+                  style={{ background: "none", border: "none", color: "blue", textDecoration: "underline", cursor: "pointer" }}
+                >
+                  Delete
+                </button>
+              </li>
             </ul>
           </div>
         ))}
@@ -40,5 +46,6 @@ const mapStateToProps = state => {
     interviews: state.interviews
   };
 };
+
 export default connect(mapStateToProps)(List);
-// export default List
+
