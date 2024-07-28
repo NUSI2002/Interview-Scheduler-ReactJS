@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Interview-Scheduler-ReactJS/static/css/main.69eda509.chunk.css",
+    "main.js": "/Interview-Scheduler-ReactJS/static/js/main.bd7e222c.chunk.js",
+    "main.js.map": "/Interview-Scheduler-ReactJS/static/js/main.bd7e222c.chunk.js.map",
+    "runtime~main.js": "/Interview-Scheduler-ReactJS/static/js/runtime~main.2b30964d.js",
+    "runtime~main.js.map": "/Interview-Scheduler-ReactJS/static/js/runtime~main.2b30964d.js.map",
+    "static/js/2.b4a1ce99.chunk.js": "/Interview-Scheduler-ReactJS/static/js/2.b4a1ce99.chunk.js",
+    "static/js/2.b4a1ce99.chunk.js.map": "/Interview-Scheduler-ReactJS/static/js/2.b4a1ce99.chunk.js.map",
+    "index.html": "/Interview-Scheduler-ReactJS/index.html",
+    "precache-manifest.1224ab04a1715645f4580a31822a2803.js": "/Interview-Scheduler-ReactJS/precache-manifest.1224ab04a1715645f4580a31822a2803.js",
+    "service-worker.js": "/Interview-Scheduler-ReactJS/service-worker.js",
+    "static/css/main.69eda509.chunk.css.map": "/Interview-Scheduler-ReactJS/static/css/main.69eda509.chunk.css.map"
+  }
+}
